@@ -16,7 +16,7 @@ function justify(text : string, quota: number, callback: (errorCode: number | nu
         return;
     }
     if (tokens.length > quota) {
-        callback(502, `You have to pay. Words to process: ${tokens.length}, quota: ${quota}`, null, null);
+        callback(402, `You have to pay. Words to process: ${tokens.length}, quota: ${quota}`, null, null);
         return;
     }
 
