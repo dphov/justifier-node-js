@@ -1,4 +1,4 @@
-#Justifier service (Node.js)
+# Justifier service (Node.js)
 
 Takes a text, and then converts it to text with 80 chars maximum per line.
 
@@ -14,7 +14,7 @@ Body example:
 You will have a return from server like:
 ```
 {
-  "email": "foo@bar.comm",
+  "email": "foo@bar.com",
   "wordsQuota": 80000
 }
 ```
